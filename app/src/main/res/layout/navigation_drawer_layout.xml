@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_navigation"
+
+  >
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/money"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:paddingLeft="9dp"
+        android:paddingTop="9dp"
+        android:drawableRight="@drawable/pngegg"
+        android:paddingRight="10sp"
+        android:textColor="#334257"
+        android:textSize="18sp"
+        android:id="@+id/Stats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Stats"
+        android:onClick="clickStats"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+    <TextView
+        android:onClick="clickIncome"
+        android:paddingLeft="9dp"
+        android:id="@+id/Income" android:textSize="18sp"   android:textColor="#334257"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Income"
+        android:paddingTop="9dp"
+        android:drawableRight="@drawable/incomee"
+        android:paddingRight="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Stats" />
+
+    <TextView
+        android:onClick="clickExpenses"
+        android:paddingLeft="9dp"
+        android:paddingTop="9dp"
+        android:drawableRight="@drawable/azz"
+        android:paddingRight="10sp"
+        android:textSize="18sp"   android:textColor="#334257"
+        android:id="@+id/Expenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Expenses"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Income" />
+
+    <TextView
+       android:textColor="#334257"
+        android:onClick="clickAbout"
+        android:paddingTop="9dp"
+        android:drawableRight="@drawable/about"
+        android:paddingRight="10sp"
+        android:id="@+id/About" android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="About"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"        android:paddingLeft="9dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Expenses" />
+
+    <TextView
+        android:onClick="clickLogout"
+        android:textSize="18sp"   android:textColor="#334257"
+        android:id="@+id/Logout"
+        android:paddingLeft="9dp"
+        android:paddingTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Log out"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/About"
+        android:drawableRight="@drawable/logout"
+        android:paddingRight="10sp"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

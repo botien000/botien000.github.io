@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:title="co">
+        <menu>
+        <item android:id="@+id/action_music"
+            android:enabled="true"
+            android:icon="@drawable/ic_baseline_alarm_24"
+            android:title="alarm"/>
+        <item android:id="@+id/action_musica"
+            android:enabled="true"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="acc"/>
+        <item android:id="@+id/action_musicz"
+            android:enabled="true"
+            android:icon="@drawable/ic_baseline_brightness_5_24"
+            android:title="sun"/>
+        </menu>
+    </item>
+    <item android:title="coz">
+        <menu>
+            <item android:id="@+id/action_music2"
+                android:enabled="true"
+                android:icon="@drawable/ic_baseline_alarm_24"
+                android:title="alarm"/>
+            <item android:id="@+id/action_musica2"
+                android:enabled="true"
+                android:icon="@drawable/ic_baseline_account_circle_24"
+                android:title="acc"/>
+            <item android:id="@+id/action_musicz2"
+                android:enabled="true"
+                android:icon="@drawable/ic_baseline_brightness_5_24"
+                android:title="sun"/>
+        </menu>
+    </item>
+</group>
+</menu>
